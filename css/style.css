@@ -1,0 +1,64 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+body{font-family: 'Noto Sans KR', sans-serif; font-size: 16px; line-height: 26px; color: #2f2f2f;}
+
+
+/* top */
+#top{width: 100%; height: 190px; margin-bottom: 10px;}
+.top_inner{width: 1320px; margin: 0 auto; text-align: center; position: relative; height: 190px;}
+.logo{display: block; width: 124px; height: 69px; position: absolute; left: 50%; top: 16%; margin-left: -62px;}
+.nav{position: absolute; bottom: 5px;}
+.nav li{float: left;}
+.nav li a{display: block; margin-right: 335px; margin-top: 20px; font-weight: bold; font-size: 20px;}
+.nav li a:hover{color: #cf800e;}
+.nav li:last-child a{margin-right: 0;}
+
+
+/* banner */
+#banner{width: 100%; height: 836px; position: relative;}
+#banner h1{position: absolute; top: 50%; left: 50%; color: #fff; font-size: 72px; margin-left: -165.6px; margin-top: -18px;}
+.mainbn{width: 100%;}
+
+/* contop-text */
+.contop-text{margin-top: 100px; text-align: center; font-size: 48px; line-height: 70px;}
+.color{color: #cf800e;}
+.milligram{font-family: 'Milligram Trial', sans-serif;}
+
+/* con1 */
+.con-top{width: 1320px; margin: 100px auto; position: relative;}
+.con-top img{display: block;}
+.con-top p{position: absolute; top: 50%; left: 50%; color: #fff; font-size: 36px; line-height: 57px; font-weight: bold; margin-top: -85.5px; margin-left: -252px; text-align: center;}
+
+
+/* con */
+#con{width: 1320px; margin: 150px auto; height: 1910px;}
+.right{width: 100%; height: 570px; position: relative;}
+.img-r{float: right;}
+.con-text{float: right; text-align: right; margin-top: 100px; margin-right: 30px;}
+.con-text p{font-size: 16px; line-height: 30px;}
+.con-text h1{margin-bottom: 100px;}
+.icon1{position: absolute; top: 0; left: 213px;}
+.icon3{position: absolute; top: 23px; left: 196px;}
+
+
+.left{width: 100%; height: 570px; margin: 100px 0; position: relative;}
+.img-l{float: left;}
+.con-text2{float: left; text-align: left; margin: 100px 0 0 30px;}
+.con-text2 p{font-size: 16px; line-height: 30px;}
+.con-text2 h1{margin-bottom: 100px;}
+.icon2{position: absolute; top: 59px; right: 271px;}
+
+/* top버튼 */
+.top-link{position:fixed; bottom:50px; right:50px; display:none; background-color: #cf800e; padding: 17px; border-radius: 50%; font-weight: bold; color: #fff;}
+.top-link:hover{background-color: #fff; color: #cf800e;}
+
+/* footer */
+#footer{width: 100%; height: 300px; background-color: #333;}
+.footer-inner{width: 1320px; margin: 0 auto; height: 300px; position: relative;}
+.footer-nav{float: left;}
+.footer-nav li{float: left; margin-bottom: 112px;}
+.footer-nav li a{display: block; color: #fff; font-weight: bold; font-size: 18px; margin: 15px 60px 0 0;}
+.footer-nav li a:hover{text-decoration: underline;}
+.footer-inner p{clear: both; color: #fff; font-size: 18px;}
+.footer-logo{display: block; position: absolute; right: 0; top: 188px; width: 124px; height: 69px;}
